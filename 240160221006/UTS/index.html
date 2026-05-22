@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="id" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portfolio | Dadika Yudiana</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+  <link rel="stylesheet" href="assets/css/custom.css"/>
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav id="navbar">
+    <a href="#hero" class="logo">Dadika Yudiana<span>.</span></a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#hero">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#portfolio">Portfolio</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="nav-right">
+      <button class="btn-theme" id="themeToggle" title="Toggle theme">
+        <i class="fas fa-moon" id="themeIcon"></i>
+      </button>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- HERO-->
+  <section id="hero">
+    <div class="hero-content">
+      <div class="hero-left">
+        <p class="hero-greeting">Halo, saya</p>
+        <h1 class="hero-name">Dadika<br>Yudiana<span>.</span></h1>
+        <p class="hero-role">Mahasiswa Sistem Informasi</p>
+        <p class="hero-desc">Tertarik pada dunia Music dan Gaming</p>
+        <div class="hero-btns">
+          <a href="#portfolio" class="btn-solid">Karya Saya</a>
+          <a href="#contact" class="btn-line">Kontak</a>
+        </div>
+      </div>
+      <div class="hero-right">
+        <div class="hero-img-wrap">
+          <img src="assets/images/profile/foto.jpeg" alt="Foto">
+          <div class="hero-img-placeholder">NK</div>
+        </div>
+        <div class="hero-socials">
+          <a href="https://www.instagram.com/schwesterdk_" title="Instagram"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="hero-scrollhint">scroll ↓</div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="section-inner">
+      <div class="about-top">
+        <div class="about-img-box">
+          <img src="assets/images/profile/foto.jpeg" alt="Foto">
+          <div class="about-badge">
+            <span class="badge-num">2024</span>
+            <span class="badge-txt">Angkatan</span>
+          </div>
+        </div>
+        <div class="about-text">
+          <p class="about-label">— About Me</p>
+          <h2 class="about-title">Dadika Yudiana</h2>
+          <p class="about-desc">Halo! Saya <strong>Dadika Yudiana</strong>, mahasiswa Sistem Informasi di Universitas Sebelas April. Saya tertarik pada dunia Muisc dan Gaming.</p>
+          <p class="about-desc">Saya terbiasa bekerja dalam tim dan selalu berusaha memberikan solusi yang efisien dan tepat sasaran.</p>
+
+          <div class="about-skills">
+            <div class="skill-row">
+              <span class="skill-name">Capcut</span>
+              <div class="skill-bar"><div class="skill-fill" data-pct="90"></div></div>
+            </div>
+            <div class="skill-row">
+              <span class="skill-name">Microsoft Office</span>
+              <div class="skill-bar"><div class="skill-fill" data-pct="85"></div></div>
+            </div>
+            <div class="skill-row">
+              <span class="skill-name">Microsoft Excel</span>
+              <div class="skill-bar"><div class="skill-fill" data-pct="80"></div></div>
+            </div>
+            <div class="skill-row">
+              <span class="skill-name">Canva</span>
+              <div class="skill-bar"><div class="skill-fill" data-pct="80"></div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Info bar bawah -->
+      <div class="about-infobar">
+        <div class="info-block">
+          <span class="info-key">Universitas</span>
+          <span class="info-val">Universitas Sebelas April</span>
+        </div>
+        <div class="info-block">
+          <span class="info-key">Jurusan</span>
+          <span class="info-val">Sistem Informasi</span>
+        </div>
+        <div class="info-block">
+          <span class="info-key">Angkatan</span>
+          <span class="info-val">2024</span>
+        </div>
+        <div class="info-block">
+          <span class="info-key">Status</span>
+          <span class="info-val">Aktif Kuliah</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PORTFOLIO -->
+  <section id="portfolio">
+    <div class="section-inner">
+      <p class="port-label">— Portfolio</p>
+      <h2 class="port-title">Karya Saya</h2>
+      <p class="port-sub"></p>
+
+      <div class="port-masonry" id="portGrid">
+
+        <a href="https://drive.google.com/file/d/1WKJGWL8lw7X_f1bBWpDoZJYvGLnGXVHc/view?usp=drivesdk" id="lbLink" target="_blank" class="port-item port-item--wide">
+          <img src="assets/images/projects/cv.png" alt="Proyek 1" class="lazy">
+          <div class="port-placeholder" style="background:#1c1c1c">01</div>
+          <div class="port-hover">
+            <span class="port-hover-title">CV</span>
+            <span class="port-hover-sub">CV</span>
+          </div>
+        </a>
+
+        <a href="https://youtu.be/6U3BRRMsAJs?si=0wwup3bxSXmPPPRH" id="lbLink" target="_blank" class="port-item">
+        <img src="assets/images/projects/tugas.png" alt="Proyek 1" class="lazy">
+          <div class="port-placeholder" style="background:#252525">02</div>
+          <div class="port-hover">
+            <span class="port-hover-title">Projek Sistem Operasi</span>
+            <span class="port-hover-sub">Projek</span>
+          </div>
+        </a>
+        
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="section-inner">
+      <div class="contact-wrap">
+        <div class="contact-left">
+          <p class="port-label">— Contact</p>
+          <h2 class="port-title">Hubungi<br>Saya</h2>
+          <div class="c-list">
+            <div class="c-item">
+              <i class="fas fa-envelope"></i>
+              <a href="mailto:email@gmail.com">dienraexsel12@gmail.com</a>
+            </div>
+            <div class="c-item">
+              <i class="fas fa-phone"></i>
+              <a href="#">+62 888-0238-1172</a>
+            </div>
+            <div class="c-item">
+              <i class="fas fa-map-marker-alt"></i>
+              <span>Kota Sumedang, Provinsi Jawa Barat</span>
+            </div>
+            <div class="c-item">
+              <i class="fab fa-github"></i>
+              <a href="#">github.com/240160221006</a>
+            </div>
+          </div>
+        </div>
+        <div class="contact-right">
+          <form id="contactForm">
+            <div class="fg">
+              <label>Nama</label>
+              <input type="text" placeholder="Nama kamu">
+            </div>
+            <div class="fg">
+              <label>Email</label>
+              <input type="email" placeholder="email@gmail.com">
+            </div>
+            <div class="fg">
+              <label>Pesan</label>
+              <textarea placeholder="Tulis pesanmu..."></textarea>
+            </div>
+            <button type="submit" class="btn-solid" style="width:100%;justify-content:center">Kirim Pesan</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-inner">
+      <span class="footer-name">Dadika Yudiana<span>.</span></span>
+      <p>© 2026 Dadika Yudiana</p>
+    </div>
+  </footer>
+
+  <script src="assets/js/script.js"></script>
+</body>
+</html>
