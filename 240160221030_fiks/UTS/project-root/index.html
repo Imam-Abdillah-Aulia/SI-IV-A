@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <meta name="description" content="Portfolio - Nadya Zahra Aulia">
+    <title>Nadya Zahra Aulia Portfolio </title>
+    
+    <!-- Font Awesome 6 (Free CDN) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    
+    <!-- Google Fonts: Inter + Poppins -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- AOS (Scroll Reveal Animation) -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/custom.css">
+</head>
+<body>
+
+<!-- Preloader -->
+<div class="preloader" id="preloader">
+    <div class="loader-ring">
+        <div></div><div></div><div></div><div></div>
+    </div>
+    <p>Please Wait...</p>
+</div>
+
+<!-- Navbar -->
+<nav class="navbar" id="navbar">
+    <div class="nav-container">
+        <div class="logo">
+            <a href="#home">NAD<span></span></a>
+        </div>
+        <div class="hamburger" id="hamburger">
+            <i class="fas fa-bars"></i>
+        </div>
+        <div class="nav-links" id="navLinks">
+            <a href="#home" class="nav-link">Home</a>
+            <a href="#about" class="nav-link">About</a>
+            <a href="#portfolio" class="nav-link">CV</a>
+            <a href="#contact" class="nav-link">Contact</a>
+            <button class="theme-toggle" id="themeToggle">
+                <i class="fas fa-moon"></i>
+            </button>
+        </div>
+    </div>
+</nav>
+
+<main>
+  <!-- Hero Section -->
+<section id="home" class="hero">
+    <div class="container">
+        <div class="hero-content">
+
+            <!-- LEFT -->
+            <div class="hero-left">
+
+                <div class="quote-box">
+                    <img src="assets/images/profile/Nadya.jpeg" class="quote-img">
+
+                    <span>“You don't need permission to dream”</span>
+                </div>
+
+                <h1>Nadya Zahra Aulia</h1>
+
+                <p>
+                    Mahasiswa Sistem Informasi
+                    yang sedang belajar membuat website modern
+                    dan responsive.
+                </p>
+
+                <div class="cta-buttons">
+                    <a href="#portfolio" class="btn btn-primary">
+                        <i class="fas fa-folder-open"></i>
+                        CV
+                    </a>
+
+                </div>
+
+            </div>
+
+            <!-- RIGHT -->
+            <div class="hero-right">
+
+                <div class="profile-wrapper">
+
+                    <img src="assets/images/profile/Nadya.jpeg"
+                         class="profile-img">
+
+                    <!-- CARD BAWAH -->
+                    <div class="profile-card">
+
+                        <div class="profile-info">
+                            <img src="assets/images/profile/Nadya.jpeg">
+
+                            <div>
+                                <h4>@nrikve</h4>
+                                <p>Available for work</p>
+                            </div>
+                        </div>
+
+                        <a href="#contact" class="contact-btn">
+                            Contact Me
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</section>
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">About Me</h2>
+            <div class="about-grid">
+                <div class="about-bio" data-aos="fade-right" data-aos-delay="100">
+                    <p>Saya adalah mahasiswa Sistem Informasi yang sedang mengeksplorasi dunia pengembangan web. Saat ini saya fokus mempelajari HTML, CSS, dan JavaScript untuk membangun website yang sederhana, responsif, dan user-friendly. Di luar dunia coding, saya juga seorang gamer yang menikmati waktu bermain game sebagai cara untuk refreshing dan melatih strategi serta fokus. Saya terus belajar dan berkembang untuk meningkatkan kemampuan di bidang front-end development..</p>
+                </div>
+                <div class="skills-section" data-aos="fade-left" data-aos-delay="100">
+                    <h3>Skills</h3>
+                    <div class="skill-item">
+                        <div class="skill-info"><span>HTML & CSS</span><span></span></div>
+                        <div class="progress-bar"><div class="progress-fill" data-width="10"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info"><span>JavaScript & React.js</span><span></span></div>
+                        <div class="progress-bar"><div class="progress-fill" data-width="5"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info"><span>Akutansi</span><span></span></div>
+                        <div class="progress-bar"><div class="progress-fill" data-width="30"></div></div>
+            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- CV Section -->
+<section id="portfolio" class="portfolio">
+
+    <div class="container">
+
+        <h2 class="section-title" data-aos="fade-up">
+            Curriculum Vitae (CV)
+        </h2>
+
+        <div class="cv-wrapper" data-aos="zoom-in">
+
+            <img src="assets/images/project/cv.jpg"
+                 alt="Curriculum Vitae"
+                 class="cv-image">
+
+        </div>
+
+    </div>
+
+</section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Let's Connect</h2>
+            <div class="contact-wrapper" data-aos="fade-up" data-aos-delay="100">
+                <div class="contact-info">
+                    <h3>Hubungi Saya</h3>
+                    <p>Saya terbuka untuk peluang kerja freelance maupun full-time.  
+Silakan hubungi saya jika ingin terhubung.</p>
+                    <div class="contact-details">
+                        <div><i class="fas fa-envelope"></i> aulianadyazahra17@gmail.com</div>
+                        <div><i class="fas fa-phone"></i> +62 838 2275 6126</div>
+                        <div><i class="fas fa-location-dot"></i> Sumedang,Jawa Barat, Indonesia</div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" placeholder="Email Address" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="subject" placeholder="Subject" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea rows="4" id="message" placeholder="Your Message..." required></textarea>
+                        </div>
+                        <div id="formFeedback" class="form-feedback"></div>
+                        <button type="submit" id="submitBtn">
+                            <span class="btn-text">Send Message</span>
+                            <span class="btn-loader"><i class="fas fa-spinner fa-spin"></i></span>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+<!-- Footer -->
+<footer class="footer">
+    <div class="container">
+        <div class="footer-content">
+            <div class="footer-logo">
+                <h3>NAD<span></span></h3>
+                <p></p>
+            </div>
+            <div class="footer-social">
+                <a href="https://github.com/240160221030-NadyaZahraAulia"><i class="fab fa-github"></i></a>
+                <a href="https://www.instagram.com/nzrikve/"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.youtube.com/@capybara_girl1610"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Nadya Zahra Aulia<i class=""></i></p>
+        </div>
+    </div>
+</footer>
+
+<!-- Lightbox Modal -->
+<div id="lightbox" class="lightbox">
+    <div class="lightbox-content">
+        <span class="close-lightbox">&times;</span>
+        <img id="lightboxImg" alt="Project Preview">
+        <h3 id="lightboxTitle"></h3>
+        <p id="lightboxDesc"></p>
+    </div>
+</div>
+
+<!-- Scripts -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="assets/js/script.js"></script>
+</body>
+</html>
