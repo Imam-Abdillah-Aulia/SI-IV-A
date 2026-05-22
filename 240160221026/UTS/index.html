@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfolio profesional Muhammad Aulia Ramadhani - UI/UX Enthusiast & Front-End Developer">
+  <title>Muhammad Mulky Khoiruddin farrij | UTS</title>
+  <link rel="preload" href="assets/css/style.css" as="style">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body class="light-mode">
+  <!-- Loading Animation -->
+  <div class="loader">
+    <div class="loader-spinner"></div>
+  </div>
+
+  <!-- Header / Navigation -->
+  <header class="header">
+    <div class="container">
+      <div class="logo">
+        <a href="#hero">
+          <span class="logo-text">Mulky</span>
+          <span class="logo-dot">.</span>
+        </a>
+      </div>
+      <nav id="navbar" class="nav">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#hero" class="nav-link active">Beranda</a></li>
+          <li class="nav-item"><a href="#about" class="nav-link">Tentang</a></li>
+          <li class="nav-item"><a href="#portfolio" class="nav-link">Portfolio</a></li>
+          <li class="nav-item"><a href="#contact" class="nav-link">Kontak</a></li>
+          <li class="nav-item">
+            <button id="mode-toggle" class="mode-toggle" aria-label="Toggle dark mode">
+              <span class="mode-icon">🌙</span>
+            </button>
+          </li>
+        </ul>
+      </nav>
+      <button class="menu-toggle" aria-label="Toggle menu">
+        <span class="hamburger"></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="hero" class="hero-section">
+    <div class="container">
+      <div class="hero-content">
+        <div class="hero-text">
+          <h1 class="hero-title">
+            <span class="title-line">Hai, Saya</span>
+            <span class="title-name">Muhammad Mulky</span>
+
+          </h1>
+          <p class="hero-subtitle">UI/UX Enthusiast</p>
+          <p class="hero-description">
+            Mahasiswa Sistem Informasi yang berfokus pada pengembangan antarmuka pengguna yang menarik dan fungsional.
+          </p>
+          <div class="hero-buttons">
+            <a href="#portfolio" class="btn btn-primary">Lihat Portfolio</a>
+            <a href="#contact" class="btn btn-secondary">Hubungi Saya</a>
+          </div>
+          <div class="social-links">
+            <a href="https://instagram.com/imramaul_" target="_blank" rel="noopener noreferrer" class="social-link">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/muhammad-mulky-a170653b4/" target="_blank" rel="noopener noreferrer" class="social-link">
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+            <a href="https://github.com/240160221026-commit" target="_blank" rel="noopener noreferrer" class="social-link">
+              <i class="fab fa-github"></i>
+            </a>
+            <a href="mailto:muhammadmulky11207@gmail.com" class="social-link">
+              <i class="fas fa-envelope"></i>
+            </a>
+          </div>
+        </div>
+        <div class="hero-image">
+          <div class="image-wrapper">
+            <img src="assets/img/Mulky.jpg" alt="Muhammad Mulky" class="profile-img" loading="eager" />
+            <div class="image-border"></div>
+            <div class="image-dots"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="scroll-indicator">
+      <span class="scroll-dot"></span>
+    </div>
+  </section>
+
+  <!-- About Me -->
+  <section id="about" class="about-section">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Tentang Saya</h2>
+        <p class="section-subtitle">Mari berkenalan lebih dekat</p>
+      </div>
+      
+      <div class="about-content">
+        <div class="about-text">
+          <h3 class="about-heading">Siapa Saya?</h3>
+          <p>
+            Saya adalah mahasiswa Sistem Informasi yang aktif di organisasi dan sangat tertarik pada dunia desain antarmuka pengguna (UI/UX) serta pengembangan web front-end. Saya senang menciptakan pengalaman digital yang menarik dan mudah digunakan.
+          </p>
+          <p>
+            Selain akademik, saya aktif dalam berbagai kegiatan organisasi kampus yang membantu mengembangkan soft skills seperti kepemimpinan, kerja tim, dan manajemen waktu.
+          </p>
+         
+        <div class="about-skills">
+          <h3 class="skills-heading">Keahlian Saya</h3>
+          <div class="skills-container">
+            <div class="skill-item">
+              <div class="skill-info">
+                <span class="skill-name">HTML</span>
+                <span class="skill-percent">90%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" style="width: 90%;" data-percent="90"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info">
+                <span class="skill-name">CSS</span>
+                <span class="skill-percent">85%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" style="width: 85%;" data-percent="85"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info">
+                <span class="skill-name">JavaScript</span>
+                <span class="skill-percent">75%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" style="width: 75%;" data-percent="75"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info">
+                <span class="skill-name">UI/UX Design</span>
+                <span class="skill-percent">80%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" style="width: 80%;" data-percent="80"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info">
+                <span class="skill-name">Figma</span>
+                <span class="skill-percent">85%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" style="width: 85%;" data-percent="85"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="education-section">
+        <h3 class="education-heading">Pendidikan</h3>
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-date">2024 - Sekarang</div>
+            <div class="timeline-content">
+              <h4 class="timeline-title">Universitas Sebelas April Sumedang</h4>
+              <p class="timeline-subtitle">Sistem Informasi</p>
+              <p class="timeline-description">Aktif dalam kegiatan ormawa dan UKM.</p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-date">2021 - 2024</div>
+            <div class="timeline-content">
+              <h4 class="timeline-title">Man 2 Sumedang </h4>
+              <p class="timeline-subtitle">Jurusan IPA</p>
+              <p class="timeline-description">Aktif dalam kegiatan ekstrakurikuler.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfolio Gallery -->
+  <section id="portfolio" class="portfolio-section">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Portfolio</h2>
+        <p class="section-subtitle">Karya terbaik saya</p>
+      </div>
+      
+      <div class="filter-buttons">
+        <button data-filter="all" class="filter-btn active">Semua</button>
+        <button data-filter="web" class="filter-btn">Web Development</button>
+        <button data-filter="design" class="filter-btn">UI/UX Design</button>
+        <button data-filter="mobile" class="filter-btn">Mobile App</button>
+      </div>
+      
+      <div class="portfolio-grid">
+        <div class="portfolio-item web" data-category="web">
+          <div class="portfolio-img-container">
+            <img src="assets/img/proyek1.jpg" alt="Website Portfolio" class="portfolio-img" loading="lazy" />
+            <div class="portfolio-overlay">
+              <div class="portfolio-info">
+                <h3 class="portfolio-title">Personal Portfolio</h3>
+                <p class="portfolio-category">Web Development</p>
+                <button class="portfolio-view-btn" data-img="assets/img/proyek1.jpg" data-title="Personal Portfolio" data-category="Web Development">Lihat Detail</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="portfolio-item design" data-category="design">
+          <div class="portfolio-img-container">
+            <img src="assets/img/proyek2.jpg" alt="UI Design" class="portfolio-img" loading="lazy" />
+            <div class="portfolio-overlay">
+              <div class="portfolio-info">
+                <h3 class="portfolio-title">E-commerce UI</h3>
+                <p class="portfolio-category">UI/UX Design</p>
+                <button class="portfolio-view-btn" data-img="assets/img/proyek2.jpg" data-title="E-commerce UI" data-category="UI/UX Design">Lihat Detail</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="portfolio-item web" data-category="web">
+          <div class="portfolio-img-container">
+            <img src="assets/img/projek3.jpg" alt="Company Website" class="portfolio-img" loading="lazy" />
+            <div class="portfolio-overlay">
+              <div class="portfolio-info">
+                <h3 class="portfolio-title">Company Profile</h3>
+                <p class="portfolio-category">Web Development</p>
+                <button class="portfolio-view-btn" data-img="assets/img/proyek3.jpg" data-title="Company Profile" data-category="Web Development">Lihat Detail</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="portfolio-item design" data-category="design">
+          <div class="portfolio-img-container">
+            <img src="assets/img/proyek4.jpg" alt="Mobile App Design" class="portfolio-img" loading="lazy" />
+            <div class="portfolio-overlay">
+              <div class="portfolio-info">
+                <h3 class="portfolio-title">Fitness App</h3>
+                <p class="portfolio-category">UI/UX Design</p>
+                <button class="portfolio-view-btn" data-img="assets/img/proyek4.jpg" data-title="Fitness App" data-category="UI/UX Design">Lihat Detail</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="portfolio-item mobile" data-category="mobile">
+          <div class="portfolio-img-container">
+            <img src="assets/img/projek5.jpg" alt="Mobile Application" class="portfolio-img" loading="lazy" />
+            <div class="portfolio-overlay">
+              <div class="portfolio-info">
+                <h3 class="portfolio-title">Task Manager</h3>
+                <p class="portfolio-category">Mobile App</p>
+                <button class="portfolio-view-btn" data-img="assets/img/proyek5.jpg" data-title="Task Manager" data-category="Mobile App">Lihat Detail</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="portfolio-item web" data-category="web">
+          <div class="portfolio-img-container">
+            <img src="assets/img/proyek6.jpg" alt="Web Application" class="portfolio-img" loading="lazy" />
+            <div class="portfolio-overlay">
+              <div class="portfolio-info">
+                <h3 class="portfolio-title">Dashboard Admin</h3>
+                <p class="portfolio-category">Web Development</p>
+                <button class="portfolio-view-btn" data-img="assets/img/proyek6.jpg" data-title="Dashboard Admin" data-category="Web Development">Lihat Detail</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Lightbox Modal -->
+  <div id="portfolio-modal" class="modal">
+    <div class="modal-content">
+      <span class="modal-close">&times;</span>
+      <img id="modal-img" src="" alt="" class="modal-image" />
+      <div class="modal-info">
+        <h3 id="modal-title"></h3>
+        <p id="modal-category" class="modal-category"></p>
+        <a href="#" class="btn btn-primary modal-link" target="_blank">Lihat Proyek</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Contact -->
+  <section id="contact" class="contact-section">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Hubungi Saya</h2>
+        <p class="section-subtitle">Ada pertanyaan atau ingin bekerja sama?</p>
+      </div>
+      
+      <div class="contact-content">
+        <div class="contact-info">
+          <div class="info-item">
+            <div class="info-icon">
+              <i class="fas fa-envelope"></i>
+            </div>
+            <div class="info-content">
+              <h4 class="info-title">Email</h4>
+              <a href="mailto:muhammadmulky1120@gmail.com" class="info-link">muhammadmulky1120@gmail.com</a>
+            </div>
+          </div>
+          
+          <div class="info-item">
+            <div class="info-icon">
+              <i class="fas fa-phone-alt"></i>
+            </div>
+            <div class="info-content">
+              <h4 class="info-title">Telepon</h4>
+              <a href="tel:+6285315132378" class="info-link">+62 853 1513 2378</a>
+            </div>
+          </div>
+          
+          <div class="info-item">
+            <div class="info-icon">
+              <i class="fas fa-map-marker-alt"></i>
+            </div>
+            <div class="info-content">
+              <h4 class="info-title">Lokasi</h4>
+              <p class="info-text">Sumedang, Jawa Barat, Indonesia</p>
+            </div>
+          </div>
+        </div>
+        
+        <form id="contact-form" class="contact-form">
+          <div class="form-group">
+            <input type="text" id="name" name="name" placeholder="" required />
+            <label for="name">Nama Lengkap</label>
+          </div>
+          
+          <div class="form-group">
+            <input type="email" id="email" name="email" placeholder="" required />
+            <label for="email">Alamat Email</label>
+          </div>
+          
+          <div class="form-group">
+            <input type="text" id="subject" name="subject" placeholder="" required />
+            <label for="subject">Subjek</label>
+          </div>
+          
+          <div class="form-group">
+            <textarea id="message" name="message" placeholder="" required></textarea>
+            <label for="message">Pesan Anda</label>
+          </div>
+          
+          <button type="submit" class="btn btn-primary form-submit">
+            <span class="submit-text">Kirim Pesan</span>
+            <span class="submit-icon">
+              <i class="fas fa-paper-plane"></i>
+            </span>
+          </button>
+          
+          <div id="form-message" class="form-message"></div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-about">
+          <div class="footer-logo">
+            <a href="#hero">Mulky<span>.</span></a>
+          </div>
+          <p class="footer-text">
+            Seorang UI/UX Enthusiast dan Front-End Developer yang berdedikasi untuk menciptakan pengalaman digital yang luar biasa.
+          </p>
+          <div class="footer-social">
+            <a href="https://www.instagram.com/mhmmd.mulky_/" target="_blank" rel="noopener noreferrer" class="social-link">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/muhammad-mulky-a170653b4/" target="_blank" rel="noopener noreferrer" class="social-link">
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+            <a href="https://github.com/240160221026-commit" target="_blank" rel="noopener noreferrer" class="social-link">
+              <i class="fab fa-github"></i>
+            </a>
+            <a href="mailto:auliarama797@gmail.com" class="social-link">
+              <i class="fas fa-envelope"></i>
+            </a>
+          </div>
+        </div>
+        
+        <div class="footer-links">
+          <h4 class="links-title">Tautan Cepat</h4>
+          <ul class="links-list">
+            <li><a href="#hero" class="footer-link">Beranda</a></li>
+            <li><a href="#about" class="footer-link">Tentang</a></li>
+            <li><a href="#portfolio" class="footer-link">Portfolio</a></li>
+            <li><a href="#contact" class="footer-link">Kontak</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-links">
+          <h4 class="links-title">Keahlian</h4>
+          <ul class="links-list">
+            <li><a href="#" class="footer-link">UI/UX Design</a></li>
+            <li><a href="#" class="footer-link">Web Development</a></li>
+            <li><a href="#" class="footer-link">Front-End</a></li>
+            <li><a href="#" class="footer-link">Prototyping</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-newsletter">
+          <h4 class="newsletter-title">Berlangganan</h4>
+          <p class="newsletter-text">Dapatkan update terbaru tentang karya dan artikel saya.</p>
+          <form class="newsletter-form">
+            <input type="email" placeholder="Alamat Email" required />
+            <button type="submit" class="newsletter-btn">
+              <i class="fas fa-paper-plane"></i>
+            </button>
+          </form>
+        </div>
+      </div>
+      
+      <div class="footer-bottom">
+        <p class="copyright">&copy; <span id="current-year"></span> Muhammad Mulky. All rights reserved.</p>
+        <div class="legal-links">
+          <a href="#" class="legal-link">Privacy Policy</a>
+          <a href="#" class="legal-link">Terms of Service</a>
+        </div>
+      </div>
+    </div>
+    
+    <a href="#hero" class="back-to-top" aria-label="Back to top">
+      <i class="fas fa-arrow-up"></i>
+    </a>
+  </footer>
+
+  <script src="assets/js/script.js"></script>
+</body>
+</html>
