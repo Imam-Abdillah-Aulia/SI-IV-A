@@ -1,0 +1,164 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:'Poppins', sans-serif;
+    background:linear-gradient(135deg,#fdfbfb,#ebedee);
+    color:#444;
+    padding:40px;
+    transition:1s;
+}
+
+.container{
+    max-width:900px;
+    margin:auto;
+    background:white;
+    border-radius:25px;
+    padding:40px;
+    box-shadow:0 8px 25px rgba(0,0,0,0.08);
+}
+
+/* TEXT */
+.text-center{
+    text-align:center;
+}
+
+/* FOTO */
+img{
+    width:180px;
+    height:180px;
+    object-fit:cover;
+    border-radius:50%;
+    border:6px solid #d6e4ff;
+    box-shadow:0 6px 15px rgba(0,0,0,0.1);
+    margin:20px 0;
+}
+
+/* JUDUL */
+h1{
+    font-size:42px;
+    color:#5b6ee1;
+    margin-bottom:20px;
+}
+
+h2{
+    color:#6c63ff;
+    margin-top:35px;
+    margin-bottom:15px;
+}
+
+/* PARAGRAF */
+p{
+    line-height:1.8;
+    margin-bottom:15px;
+}
+
+/* QUOTE */
+blockquote{
+    margin-top:20px;
+    background:#f4f3ff;
+    padding:20px;
+    border-left:5px solid #6c63ff;
+    border-radius:15px;
+    font-style:italic;
+}
+
+/* TABEL */
+table{
+    width:100%;
+    border-collapse:collapse;
+    margin-top:15px;
+    overflow:hidden;
+    border-radius:15px;
+}
+
+th{
+    background:#6c63ff;
+    color:white;
+    padding:15px;
+}
+
+td{
+    padding:15px;
+    border-bottom:1px solid #eee;
+    background:white;
+}
+
+/* LIST */
+ul,ol{
+    margin-left:25px;
+    margin-top:10px;
+}
+
+li{
+    margin-bottom:10px;
+}
+
+/* AUDIO */
+audio{
+    width:100%;
+    margin-top:15px;
+}
+
+/* EMBED */
+.audio-embed{
+    margin-top:20px;
+    text-align:center;
+}
+
+.audio-embed iframe{
+    width:100%;
+    max-width:600px;
+}
+
+/* VIDEO */
+iframe{
+    margin-top:20px;
+    border-radius:15px;
+    width:100%;
+    max-width:100%;
+}
+
+/* LINK SOSMED */
+a{
+    text-decoration:none;
+    color:#6c63ff;
+    font-weight:600;
+    transition:0.3s;
+}
+
+a:hover{
+    color:#574bdb;
+}
+
+/* FOOTER */
+footer{
+    text-align:center;
+    margin-top:40px;
+    color:#888;
+    font-size:14px;
+}
+
+/* RESPONSIVE */
+@media(max-width:768px){
+
+    body{
+        padding:20px;
+    }
+
+    .container{
+        padding:25px;
+    }
+
+    h1{
+        font-size:32px;
+    }
+
+    iframe{
+        height:250px;
+    }
+
+}
