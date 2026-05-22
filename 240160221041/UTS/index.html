@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Rissa</title>
+    <link rel="stylesheet" href="assets/css/custom.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">RISSA SRIHANDITA<span>.</span></div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button id="theme-toggle"><i class="fas fa-moon"></i></button>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+       <div class="hero-container">
+    <div class="glass-card">
+        <div class="profile-center">
+            <img src="assets/images/profile/rissa.jpeg" alt="Rissa" class="profile-img">
+            <div class="glowing-ring"></div>
+        </div>
+        <h1>Halo, Saya <span class="highlight">Rissa</span></h1>
+        <p id="typing-text"></p>
+        <div class="social-links">
+            <a href="https://www.instagram.com/rissa0719" target="_blank">
+            <i class="fab fa-instagram"></i>
+        </a>
+        </div>
+    </div>
+</div>
+    </section>
+
+    <section id="about" class="about">
+    <div class="container">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <p>Saya adalah seorang mahasiswa Program Studi Sistem Informasi Fakultas Teknologi Informasi di Universitas Sebelas April, memiliki pengalaman sebagai panitia dalam program HIMA. Pengalaman tersebut membantu saya mengembangkan kemampuan komunikasi, kerja tim, dan rasa tanggung jawab. Saya berkomitmen untuk terus belajar, mengembangkan keterampilan, dan meningkatkan kompetensi di dunia teknologi informasi agar dapat berkontribusi secara maksimal dalam berbagai proyek atau lingkungan kerja di masa depan.</p>
+                
+                <h3>Education</h3>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <h4>Universitas Sebelas April</h4>
+                        <p>S1 Sistem Informasi (2024 - Sekarang)</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="about-skills">
+                <h3>My Skills</h3>
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <span>Bahasa Pemrograman</span>
+                        <span>50%</span>
+                    </div>
+                    <div class="progress-bar"><div class="progress" style="width: 50%;"></div></div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <span>Microsoft Office</span>
+                        <span>60%</span>
+                    </div>
+                    <div class="progress-bar"><div class="progress" style="width: 60%;"></div></div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <span>Desain</span>
+                        <span>70%</span>
+                    </div>
+                    <div class="progress-bar"><div class="progress" style="width: 70%;"></div></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="portfolio" class="portfolio">
+    <div class="container">
+        <h2 class="section-title">My Portfolio</h2>
+        
+        <div class="filter-buttons">
+            <button class="btn active" onclick="filterSelection('all')">All</button>
+            <button class="btn" onclick="filterSelection('web')">Web </button>
+            <button class="btn" onclick="filterSelection('desain')">Desain</button>
+        </div>
+
+        <div class="portfolio-grid">
+            <div class="project-card web">
+                <img src="assets/images/projects/sistem informasi toko.png" alt="Project 1">
+                <div class="project-info">
+                    <h4>Sistem Informasi Toko</h4>
+                    <p>Web</p>
+                </div>
+            </div>
+            <div class="project-card desain">
+                <img src="assets/images/projects/poster film.jpg" alt="Project 2">
+                <div class="project-info">
+                    <h4>Poster Film</h4>
+                    <p>Desain</p>
+                </div>
+            </div>
+            <div class="project-card web">
+                <img src="assets/images/projects/login.png" alt="Project 3">
+                <div class="project-info">
+                    <h4>Halaman Login</h4>
+                    <p>Web</p>
+                </div>
+            </div>
+            <div class="project-card web">
+                <img src="assets/images/projects/program.jpg" alt="Project 4">
+                <div class="project-info">
+                    <h4>Program C++</h4>
+                    <p>Web</p>
+                </div>
+            </div>
+            <div class="project-card desain">
+                <img src="assets/images/projects/desain.png" alt="Project 5">
+                <div class="project-info">
+                    <h4>Membuat Desain di Figma</h4>
+                    <p>Desain</p>
+                </div>
+            </div>
+            <div class="project-card web">
+                <img src="assets/images/projects/portofolio.png" alt="Project 6">
+                <div class="project-info">
+                    <h4>Portofolio</h4>
+                    <p>Web</p>
+                </div>
+            </div>
+            </div>
+    </div>
+</section>
+
+<section id="contact" class="contact">
+    <div class="container">
+        <h2 class="section-title">Contact Me</h2>
+        <div class="contact-container">
+            <form id="contact-form">
+                <div class="form-group">
+                    <input type="text" id="name" placeholder="Your Name" required>
+                    <small class="error-msg"></small>
+                </div>
+                <div class="form-group">
+                    <input type="email" id="email" placeholder="Your Email" required>
+                    <small class="error-msg"></small>
+                </div>
+                <div class="form-group">
+                    <textarea id="message" placeholder="Your Message" rows="5" required></textarea>
+                    <small class="error-msg"></small>
+                </div>
+                <button type="submit" class="btn-submit">Send Message</button>
+            </form>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2026 Rissa Portfolio. All Rights Reserved.</p>
+</footer>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
