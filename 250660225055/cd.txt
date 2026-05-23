@@ -1,0 +1,2 @@
+cd /d E:\KULIAH\250660225055\SI-IV-A\250660225055\Praktikum-ReactJS\latihan-react-vite
+cd /d E:\KULIAH\250660225055\SI-IV-A\250660225055\UTS-project-root

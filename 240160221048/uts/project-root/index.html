@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Yosep Adipura</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <link rel="stylesheet" href="assets/css/custom.css">
+</head>
+<body>
+
+    <!-- Loader -->
+    <div id="loader">
+        <div class="spinner"></div>
+    </div>
+
+    <!-- Header -->
+    <header>
+        <div class="logo">Yosep<span>e</span></div>
+
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+
+        <div class="header-actions">
+            <button id="theme-toggle">
+                <i class="fas fa-moon"></i>
+            </button>
+
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero -->
+    <section id="home">
+
+        <div class="hero-container">
+
+            <div class="hero-text" data-reveal>
+                <h3>Hello, Saya</h3>
+                <h1>Yosep Adipura</h1>
+                <h2>Frontend Developer</h2>
+
+                <p>
+                    Terwujud tak Terwujud harus tetap Bersujud
+                </p>
+
+                <div class="social-links">
+                    <a href="https://github.com/YosepAipura48"><i class="fab fa-github"></i></a>
+                    <a href="https://www.instagram.com/yosephendryana?igsh=MWJzMzUwcmJ6c2pkbg=="><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.youtube.com/@MILYHYA"><i class="fab fa-youtube"></i></a>
+                </div>
+
+                <a href="https://wa.me/62157105635" class="btn">Kunjungi Whatsapp Saya</a>
+            </div>
+
+            <div class="hero-image" data-reveal>
+                <img
+                    loading="lazy"
+                    src="assets/images/profile/profil.jpeg"
+                    alt="profile">
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- About -->
+    <section id="about">
+
+        <div class="section-title" data-reveal">
+            <h2>About Me</h2>
+        </div>
+
+        <div class="about-container" data-reveal>
+
+            <div class="about-text">
+                <p>
+                    Saya adalah mahasiswa Universitas Sebelas April Semester 4 yang sedang belajar web front end dan memilki keinginan menjadi konten kreator
+                </p>
+            </div>
+
+            <div class="timeline">
+
+                <div class="timeline-item">
+                    <h3>2021 - 2024</h3>
+                    <p>SMA 2 CIMALAKA</p>
+                </div>
+
+                <div class="timeline-item">
+                    <h3>2024 - Present</h3>
+                    <p>UNIVERSITAS SEBELAS APRIL</p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Skills -->
+    <section id="skills">
+
+        <div class="section-title" data-reveal">
+            <h2>My Skills</h2>
+        </div>
+
+        <div class="skills-container" data-reveal>
+
+            <div class="skill">
+                <p>HTML</p>
+                <div class="progress">
+                    <span style="width:95%"></span>
+                </div>
+            </div>
+
+            <div class="skill">
+                <p>CSS</p>
+                <div class="progress">
+                    <span style="width:90%"></span>
+                </div>
+            </div>
+
+            <div class="skill">
+                <p>JavaScript</p>
+                <div class="progress">
+                    <span style="width:80%"></span>
+                </div>
+            </div>
+
+            <div class="skill">
+                <p>UI/UX</p>
+                <div class="progress">
+                    <span style="width:75%"></span>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Portfolio -->
+    <section id="portfolio">
+
+        <div class="section-title" data-reveal">
+            <h2>Portfolio</h2>
+        </div>
+
+        <div class="filter-buttons" data-reveal">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="web">Web</button>
+            <button class="filter-btn" data-filter="design">Design</button>
+        </div>
+
+        <div class="portfolio-grid" data-reveal>
+
+            <div class="portfolio-item web">
+                <img loading="lazy" src="assets/images/project/project1.png">
+            </div>
+
+            <div class="portfolio-item design">
+                <img loading="lazy" src="assets/images/project/project2.png">
+            </div>
+
+            <div class="portfolio-item web">
+                <img loading="lazy" src="assets/images/project/project3.png">
+            </div>
+
+            <div class="portfolio-item design">
+                <img loading="lazy" src="assets/images/project/project4.png">
+            </div>
+
+            <div class="portfolio-item web">
+                <img loading="lazy" src="assets/images/project/project5.png">
+            </div>
+
+            <div class="portfolio-item design">
+                <img loading="lazy" src="assets/images/project/project6.png">
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Contact -->
+    <section id="contact">
+
+        <div class="section-title" data-reveal">
+            <h2>Contact Me</h2>
+        </div>
+
+        <form class="contact-form" data-reveal>
+
+            <input type="email" id="email" placeholder="Your Email">
+
+            <textarea
+            id="message"
+            placeholder="Your Message"></textarea>
+
+            <button type="submit" class="btn">
+                Send Message
+            </button>
+
+        </form>
+
+    </section>
+
+    <!-- Lightbox -->
+    <div class="lightbox">
+        <span class="close">&times;</span>
+        <img class="lightbox-img">
+    </div>
+
+    <script src="assets/js/script.js"></script>
+
+</body>
+</html>

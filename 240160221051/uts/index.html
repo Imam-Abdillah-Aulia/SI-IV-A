@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio | Riby Aulia Nanda</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/custom.css">
+</head>
+<body>
+
+    <!-- LOADER -->
+    <div id="loader">
+        <div class="spinner"></div>
+    </div>
+
+    <!-- DARK MODE -->
+    <button class="theme-toggle" id="themeToggle">
+        🌙
+    </button>
+
+    <!-- SIDEBAR -->
+    <aside class="sidebar">
+
+        <div class="profile-box">
+            <img src="assets/images/profile/riby.jpeg" alt="profile">
+            <h2>RIBY</h2>
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="#home">HOME</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#resume">RESUME</a></li>
+                <li><a href="#portfolio">PORTFOLIO</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+            </ul>
+        </nav>
+
+    </aside>
+
+    <!-- MAIN -->
+    <main class="main-content">
+
+        <!-- HERO -->
+        <section id="home" class="hero">
+
+            <div class="hero-text">
+                <span class="hello">HI SEMUANYA!</span>
+
+                <h1>SAYA <span>RIBY AULIA NANDA</span></h1>
+
+                <h3>Web FrontEnd Developer / Desainer</h3>
+
+                <p>
+                    Memiliki keinginan untuk menjadi mahasiswi yang terbaik di dunia IT
+                </p>
+
+                <div class="social-links">
+                    <a href="https://www.tiktok.com/@bouturlv?is_from_webapp=1&sender_device=pc">TK</a>
+                    <a href="https://www.instagram.com/ribyaulianandaa/">IG</a>
+                </div>
+
+                <a href="#about" class="btn">
+                    MORE ABOUT ME
+                </a>
+            </div>
+
+            <div class="hero-image">
+                <div class="circle"></div>
+
+                <img src="assets/images/profile/riby.jpeg" alt="">
+            </div>
+
+        </section>
+
+        <!-- ABOUT -->
+        <section id="about" class="about">
+
+            <h2 class="section-title">ABOUT ME</h2>
+
+            <div class="about-grid">
+
+                <div>
+                    <h3>
+                        Saya Riby Aulia Nanda,
+                        Web FrontEnd Developer / Desainer
+                    </h3>
+
+                    <p>
+                        Saya adalah mahasiswi universitas sebelas april prodi sistem informasi semester 4 yang sedang belajar web frontend developer
+                    </p>
+
+                    <!-- SKILLS -->
+                    <div class="skills">
+
+                        <div class="skill">
+                            <p>HTML</p>
+                            <div class="progress">
+                                <span style="width:90%"></span>
+                            </div>
+                        </div>
+
+                        <div class="skill">
+                            <p>CSS</p>
+                            <div class="progress">
+                                <span style="width:85%"></span>
+                            </div>
+                        </div>
+
+                        <div class="skill">
+                            <p>Javascript</p>
+                            <div class="progress">
+                                <span style="width:95%"></span>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- TIMELINE -->
+                <div class="timeline">
+
+                    <div class="timeline-item">
+                        <h4>2024</h4>
+                        <p>Senior UI Designer</p>
+                    </div>
+
+                    <div class="timeline-item">
+                        <h4>2022</h4>
+                        <p>Backend developer</p>
+                    </div>
+
+                    <div class="timeline-item">
+                        <h4>2020</h4>
+                        <p>FrontEnd Developer</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- RESUME -->
+        <section id="resume" class="resume">
+
+            <h2 class="section-title">RESUME</h2>
+
+            <div class="resume-grid">
+
+                <div class="resume-box">
+                    <h3>Education</h3>
+
+                    <p>
+                        SMA NEGERI 1 SUMEDANG
+                    </p>
+
+                    <span>2021 - 2024</span>
+                </div>
+
+                <div class="resume-box">
+                    <h3>Education</h3>
+
+                    <p>
+                        Universitas Sebelas April
+                    </p>
+
+                    <span>2024 - Present</span>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- PORTFOLIO -->
+        <section id="portfolio" class="portfolio">
+
+            <h2 class="section-title">PORTFOLIO</h2>
+
+            <!-- FILTER -->
+            <div class="filter-buttons">
+
+                <button class="active" data-filter="all">
+                    ALL
+                </button>
+
+                <button data-filter="design">
+                    DESIGN
+                </button>
+
+                <button data-filter="photo">
+                    PHOTO
+                </button>
+
+                <button data-filter="web">
+                    WEB
+                </button>
+
+            </div>
+
+            <!-- GRID -->
+            <div class="portfolio-grid">
+
+                <div class="portfolio-item design">
+                    <img loading="lazy" src="assets/images/projects/project1.png" alt="">
+                </div>
+
+                <div class="portfolio-item photo">
+                    <img loading="lazy" src="assets/images/projects/project2.png" alt="">
+                </div>
+
+                <div class="portfolio-item web">
+                    <img loading="lazy" src="assets/images/projects/project1.png" alt="">
+                </div>
+
+                <div class="portfolio-item design">
+                    <img loading="lazy" src="assets/images/projects/project2.png" alt="">
+                </div>
+
+                <div class="portfolio-item photo">
+                    <img loading="lazy" src="assets/images/projects/project1.png" alt="">
+                </div>
+
+                <div class="portfolio-item web">
+                    <img loading="lazy" src="assets/images/projects/project2.png" alt="">
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- CONTACT -->
+        <section id="contact" class="contact">
+
+            <h2 class="section-title">CONTACT</h2>
+
+            <form id="contactForm">
+
+                <input type="text" id="name" placeholder="Your Name">
+
+                <input type="email" id="email" placeholder="Your Email">
+
+                <textarea id="message" placeholder="Message"></textarea>
+
+                <button type="submit" class="btn">
+                    SEND MESSAGE
+                </button>
+
+            </form>
+
+        </section>
+
+    </main>
+
+    <!-- LIGHTBOX -->
+    <div class="lightbox" id="lightbox">
+        <img src="" alt="">
+    </div>
+
+    <!-- JS -->
+    <script src="assets/js/script.js"></script>
+
+</body>
+</html>
