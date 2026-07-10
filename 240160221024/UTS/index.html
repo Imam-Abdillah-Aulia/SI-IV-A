@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Muhamad Khotim Mubarok</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="logo">
+      <span class="white">Port</span><span class="green">Folio</span>
+    </div>
+    <nav class="nav-links">
+      <a href="#home" class="active">Home</a>
+      <a href="#about">About</a>
+      <a href="#media">Media</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a href="#contact" class="btn-gradient">Contact Me</a>
+  </header>
+
+  <!-- Home Section -->
+  <section class="home" id="home">
+    <div class="home-content">
+      <h1>Hi, It's <span>Khotim</span></h1>
+      
+      <p>I’m a student and aspiring designer passionate about crafting beautiful and functional digital experiences.</p>
+
+      <div class="social-icons">
+        <a href="https://www.instagram.com/t_ym06?igsh=MTBmNTZhN3RubG4wYw%3D%3D&utm_source=qr"></i></a>
+        <a href="https://www.tiktok.com/@khtmm5?_r=1&_t=ZS-96rkDp32bUw"><i class="bx bxl-twitter"></i></a>
+      </div>
+
+      <div class="btn-group">
+        <a href="#" class="btn">Hire</a>
+        <a href="#contact" class="btn">Contact</a>
+      </div>
+    </div>
+
+    <div class="home-img">
+      <img src="img/khotim.jpeg" alt="khotim Profile Image" />
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="about" id="about">
+    <div class="about-img">
+      <img src="img/khotim.jpeg" alt="khotim Photo" />
+    </div>
+
+    <div class="about-content">
+      <h2>About <span>Me</span></h2>
+      <p>Welcome to my portfolio! I'm an Information Systems student passionate about creativity and technology. I focus on graphic design and digital content creation to craft impactful and functional visuals.</p>
+    </div>
+  </section>
+
+  <!-- Media Section -->
+  <section class="media-section" id="media">
+    <h2 class="heading">Favorite <span>Song</span></h2>
+    <div class="media-card">
+      <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/4Q8Cdm7Dzn2KvdOFNjq0VM?utm_source=generator&theme=0" width="100%" height="152" frameborder="0" allowfullscreen allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+    </div>
+
+    <h2 class="heading">Video <span>Karya</span></h2>
+    <div class="media-card video">
+      <div class="video-wrapper">
+        <iframe src="https://www.youtube.com/embed/-LdGdnRPVZk?si=sQXszUNpz52luxAa title=" title="Video Karya" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section class="projects" id="projects">
+    <h2 class="heading"><span>Projects</span></h2>
+
+    <div class="project-filter">
+     
+      <button class="filter-btn" data-filter="Skill">Skill</button>
+      <button class="filter-btn" data-filter="experiences">Projects</button>
+       <!--<button class="filter-btn active" data-filter="all">lihat semua</button>-->
+    </div>
+
+    
+      <div class="project-box Skill">
+          <div class="skill-box right">
+    <h3>HARD SKILL</h3>
+    <ul>
+      <li>- Cisco Packet Tracer</li>
+      <li>- Microsoft Office</li>
+      <li>- VS Code</li>
+      <li>- Canva</li>
+    </ul>
+
+    <h3>SOFT SKILL</h3>
+    <ul>
+      <li>- Time Management</li>
+      <li>- Teamwork</li>
+      <li>- Problem Solving</li>
+      <li>- Communication</li>
+    </ul>
+  </div>
+        </div>
+      </div>
+
+    <div class="project-box experiences">
+          <div class="skill-box right">
+    <h3>PROJECT</h3>
+    <ul>
+      <li><strong>- Visualisasi Data di Looker Data Studio</li>
+      <li><strong>- Analisis Usability Aplikasi Dana di SPSS</li>
+      <li><strong>- Smarthome Comfort Live</li>
+    </ul>
+  </div>
+      </div>
+
+    
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact" id="contact">
+    <h2 class="heading">Contact <span>Me</span></h2>
+    <form id="contactForm">
+      <input type="text" id="name" placeholder="Your Name" required />
+      <input type="email" id="email" placeholder="Your Email" required />
+      <textarea id="message" rows="6" placeholder="Your Message" required></textarea>
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+  </section>
+
+  <!-- Loader -->
+  <div class="loader" id="loader">
+    <div class="spinner"></div>
+  </div>
+
+  <!-- Theme Toggle -->
+  <div class="theme-toggle">
+    <i class='bx bx-moon' id="toggle-theme"></i>
+  </div>
+
+  <script src="assets/js/script.js"></script>
+
+  
+</body>
+</html>
