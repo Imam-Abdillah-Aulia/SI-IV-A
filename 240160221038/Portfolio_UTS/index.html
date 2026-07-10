@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Resa Khoerunnisa</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/custom.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light shadow-sm">
+    <div class="container">
+
+        <a class="navbar-brand fw-bold" href="#">
+            Welcome!
+        </a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#home">Home</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#portfolio">Portfolio</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+
+            </ul>
+
+            <button id="toggleDark" class="btn btn-dark ms-3">
+                Dark Mode
+            </button>
+        </div>
+    </div>
+</nav>
+
+<!-- HERO -->
+<section id="home" class="hero-section text-center d-flex align-items-center justify-content-center">
+    <div>
+        <img src="assets/images/profil.jpg" class="profile-img mb-3" alt="profile">
+      
+        <h1 class="fw-bold">Resa Khoerunnisa</h1>
+
+        <p class="lead">Mahasiswa Sistem Informasi</p>
+
+        <div class="social-icons mt-3">
+            <a href="#"><i class="fab fa-github"></i></a>
+        </div>
+    </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="container py-5">
+    <h2 class="text-center mb-4">About Me</h2>
+
+    <p class="text-center mb-5">
+        Saya adalah mahasiswa yang sedang belajar web development menggunakan HTML, CSS,dan JavaScript.
+    </p>
+
+    <div class="row">
+
+
+        <div class="col-md-6">
+            <h4 class="mb-3">Education</h4>
+
+            <ul class="timeline">
+                <li>2024 - Sekarang : Universitas Sebelas April</li>
+            </ul>
+        </div>
+
+    </div>
+</section>
+
+<!-- PORTFOLIO -->
+<section id="portfolio" class="container py-5">
+    <h2 class="text-center mb-4">Portfolio</h2>
+
+    <!-- FILTER -->
+    <div class="text-center mb-4">
+        <button class="btn btn-primary filter-btn" data-filter="all">All</button>
+        <button class="btn btn-dark filter-btn" data-filter="web">Web</button>
+        <button class="btn btn-dark filter-btn" data-filter="ui">UI Design</button>
+    </div>
+
+    <div class="row">
+
+        <div class="col-md-4 mb-4 project-item" data-category="web">
+            <div class="card h-100 shadow-sm">
+                <img src="https://placehold.co/300x200" class="card-img-top" alt="project">
+                <div class="card-body text-center">
+                    <h5>Project 1</h5>
+                    <button class="btn btn-primary preview-btn">Preview</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4 mb-4 project-item" data-category="web">
+            <div class="card h-100 shadow-sm">
+                <img src="https://placehold.co/300x200" class="card-img-top" alt="project">
+                <div class="card-body text-center">
+                    <h5>Project 2</h5>
+                    <button class="btn btn-primary preview-btn">Preview</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4 mb-4 project-item" data-category="ui">
+            <div class="card h-100 shadow-sm">
+                <img src="https://placehold.co/300x200" class="card-img-top" alt="project">
+                <div class="card-body text-center">
+                    <h5>Project 3</h5>
+                    <button class="btn btn-primary preview-btn">Preview</button>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-md-4 mb-4 project-item" data-category="web">
+            <div class="card h-100 shadow-sm">
+                <img src="https://placehold.co/300x200" class="card-img-top" alt="project">
+                <div class="card-body text-center">
+                    <h5>Project 4</h5>
+                    <button class="btn btn-primary preview-btn">Preview</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4 mb-4 project-item" data-category="ui">
+            <div class="card h-100 shadow-sm">
+                <img src="https://placehold.co/300x200" class="card-img-top" alt="project">
+                <div class="card-body text-center">
+                    <h5>Project 5</h5>
+                    <button class="btn btn-primary preview-btn">Preview</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4 mb-4 project-item" data-category="web">
+            <div class="card h-100 shadow-sm">
+                <img src="https://placehold.co/300x200" class="card-img-top" alt="project">
+                <div class="card-body text-center">
+                    <h5>Project 6</h5>
+                    <button class="btn btn-primary preview-btn">Preview</button>
+                </div>
+            </div>
+        </div>
+            </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="container py-5">
+    <h2 class="text-center mb-4">Contact Me</h2>
+
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+
+            <form id="contactForm">
+
+                <input type="text" id="name" class="form-control mb-3" placeholder="Nama">
+
+                <input type="email" id="email" class="form-control mb-3" placeholder="Email">
+
+                <textarea id="message" class="form-control mb-3" rows="5" placeholder="Pesan"></textarea>
+
+                <button type="submit" class="btn btn-primary w-100">
+                    Kirim Pesan
+                </button>
+
+            </form>
+
+        </div>
+    </div>
+</section>
+
+<!-- LIGHTBOX -->
+<div id="lightbox" class="lightbox">
+    <span class="close-lightbox">&times;</span>
+    <img id="lightbox-img" src="">
+</div>
+
+<!-- FOOTER -->
+<footer class="bg-dark text-white text-center p-3">
+    &copy; 2026 - Resa Khoerunnisa
+</footer>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- JS -->
+<script src="assets/js/script.js"></script>
+
+</body>
+</html>

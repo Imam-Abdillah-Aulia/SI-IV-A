@@ -1,0 +1,109 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    transition: 0.3s ease;
+}
+
+@keyframes spin {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+/* HERO */
+.hero-section {
+    min-height: 100vh;
+    background: linear-gradient(to right, #4facfe, #00f2fe);
+    color: white;
+    padding-top: 100px;
+}
+
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid white;
+}
+
+.social-icons a {
+    color: white;
+    font-size: 24px;
+    margin: 0 10px;
+    transition: 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: yellow;
+}
+
+/* CARD */
+.card {
+    transition: 0.3s ease;
+    border: none;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+/* DARK MODE */
+body.dark-mode {
+    background-color: #121212;
+    color: white;
+}
+
+body.dark-mode .navbar {
+    background-color: black !important;
+}
+
+body.dark-mode .card {
+    background-color: #1e1e1e;
+    color: white;
+}
+
+body.dark-mode .hero-section {
+    background: #1e1e1e;
+}
+
+/* LIGHTBOX */
+.lightbox {
+    display: none;
+    position: fixed;
+    z-index: 9999;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.9);
+    text-align: center;
+}
+
+.lightbox img {
+    max-width: 80%;
+    max-height: 80vh;
+}
+
+.close-lightbox {
+    position: absolute;
+    top: 30px;
+    right: 40px;
+    color: white;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+/* RESPONSIVE */
+@media(max-width:768px) {
+
+    .hero-section h1 {
+        font-size: 30px;
+    }
+
+    .navbar {
+        text-align: center;
+    }
+}
