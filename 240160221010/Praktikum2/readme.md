@@ -1,1 +1,0 @@
-Halo Eka Barreeq Ibrahim
