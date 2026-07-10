@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Portfolio</title>
+    <link rel="stylesheet" href="assets/css/custom.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <div id="loader">
+        <div class="spinner"></div>
+    </div>
+
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <img src="assets/images/logo.svg" alt="Logo" onerror="this.src='https://via.placeholder.com/40x40?text=W'">
+                <span>Portfolio</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button id="theme-toggle" class="btn-toggle">
+                <i class="fas fa-moon"></i>
+            </button>
+            <div class="hamburger">
+                <span></span><span></span><span></span>
+            </div>
+        </nav>
+    </header>
+
+    <section id="hero" class="hero-section">
+        <div class="hero-content">
+            <h1 class="anim-fade">Hi, I'm <span class="highlight">Winda</span></h1>
+            <p class="tagline anim-fade-delay">Information Systems Student</p>
+            <div class="social-links anim-fade-delay2">
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="https://www.instagram.com/wndaanrrr?igsh=MXBvbWpsejZxYWx4eQ=="><i class="fab fa-instagram"></i></a>
+            </div>
+            <a href="#portfolio" class="btn-primary anim-fade-delay2">View My Work</a>
+        </div>
+        <div class="hero-image anim-zoom">
+            <img src="assets/images/profile/winda.jpeg" alt="Professional Profile" onerror="this.src='https://via.placeholder.com/350'">
+        </div>
+    </section>
+
+    <section id="about" class="about-section">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-container">
+            <div class="about-text">
+                <p>Saya adalah mahasiswi Sistem Informasi semester 4 yang memiliki minat besar dalam mempelajari manajemen basis data dan pengembangan aplikasi web. Saya senang mengeksplorasi teknologi baru dan terus mengembangkan keterampilan teknis untuk membangun solusi digital yang bermanfaat.</p>
+                
+                <h3>Education</h3>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <h4>Information Systems Degree</h4>
+                        <p class="duration">2024 - Present</p>
+                        <p>Universitas Sebelas April Sumedang - Semester 4</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="about-skills">
+                <h3>Skills & Expertise</h3>
+                <div class="skill-bar">
+                    <div class="skill-info"><span>PHP & CodeIgniter</span><span>40%</span></div>
+                    <div class="progress"><div class="progress-in" style="width: 40%"></div></div>
+                </div>
+                <div class="skill-bar">
+                    <div class="skill-info"><span>SQL & Database Admin</span><span>50%</span></div>
+                    <div class="progress"><div class="progress-in" style="width: 50%"></div></div>
+                </div>
+                <div class="skill-bar">
+                    <div class="skill-info"><span>HTML / CSS / JavaScript</span><span>55%</span></div>
+                    <div class="progress"><div class="progress-in" style="width: 55%"></div></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio" class="portfolio-section">
+        <h2 class="section-title">Portfolio Gallery</h2>
+        
+        <div class="portfolio-filters">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="web">Web Dev</button>
+            <button class="filter-btn" data-filter="database">Database</button>
+        </div>
+
+        <div class="portfolio-grid">
+            <div class="portfolio-item web" data-src="https://via.placeholder.com/600x400?text=Project+1">
+                <img src="assets/images/Projects/Project 1.png" alt="Project 1" loading="lazy">
+                <div class="layer"><h4>Basis Data Koperasi </h4><p>Database & SQL</p></div>
+            </div>
+            <div class="portfolio-item database" data-src="https://via.placeholder.com/600x400?text=Project+2">
+                <img src="assets/images/Projects/Project 2.png" alt="Project 2" loading="lazy">
+                <div class="layer"><h4>Aplikasi SITOKO v1.0</h4><p>Web Development & Login System</p></div>
+            </div>
+            <div class="portfolio-item web" data-src="https://via.placeholder.com/600x400?text=Project+3">
+                <img src="assets/images/Projects/Project 3.png" alt="Project 3" loading="lazy">
+                <div class="layer"><h4>Sistem Kategori Mahasiswa</h4><p>Object-Oriented Programming</p></div>
+            </div>
+            <div class="portfolio-item database" data-src="https://via.placeholder.com/600x400?text=Project+4">
+                <img src="assets/images/Projects/Project 4.png" alt="Project 4" loading="lazy">
+                <div class="layer"><h4>Manajemen Data Mahasiswa</h4><p>Object-Oriented Programming</p></div>
+            </div>
+            <div class="portfolio-item web" data-src="https://via.placeholder.com/600x400?text=Project+5">
+                <img src="assets/images/Projects/Project 5.png" alt="Project 5" loading="lazy">
+                <div class="layer"><h4>Data Akademik</h4><p>Backend Development</p></div>
+            </div>
+            <div class="portfolio-item database" data-src="https://via.placeholder.com/600x400?text=Project+6">
+                <img src="assets/images/Projects/Project 6.png" alt="Project 6" loading="lazy">
+                <div class="layer"><h4>Poster Film</h4><p>Design</p></div>
+            </div>
+        </div>
+    </section>
+
+    <div id="lightbox" class="lightbox">
+        <span class="lightbox-close">&times;</span>
+        <img class="lightbox-content" id="lightbox-img">
+    </div>
+
+    <section id="contact" class="contact-section">
+        <h2 class="section-title">Contact Me</h2>
+        <div class="contact-container">
+            <form id="contact-form" novalidate>
+                <div class="form-group">
+                    <input type="text" id="name" placeholder="Your Name" required>
+                    <span class="error-msg">Name is required.</span>
+                </div>
+                <div class="form-group">
+                    <input type="email" id="email" placeholder="Your Email" required>
+                    <span class="error-msg">Please enter a valid email.</span>
+                </div>
+                <div class="form-group">
+                    <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
+                    <span class="error-msg">Message cannot be empty.</span>
+                </div>
+                <button type="submit" class="btn-primary">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Winda. All Rights Reserved.</p>
+    </footer>
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
