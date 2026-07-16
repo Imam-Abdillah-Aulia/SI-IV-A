@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio Profesional Imam Abdilla Aulia - Mahasiswa Sistem Informasi Universitas Sebelas April Sumedang. Web Developer & UI/UX Designer.">
+  <meta name="keywords" content="Imam Abdilla Aulia, Portfolio, Web Developer, UI/UX Designer, Universitas Sebelas April, UNSAP, Sumedang">
+  <meta name="author" content="Imam Abdilla Aulia">
+  <title>Imam Abdillah Aulia | Personal Portfolio</title>
+  
+  <!-- CSS Stylesheet -->
+  <link rel="stylesheet" href="assets/css/custom.css">
+  
+  <!-- Favicon placeholder (Uses SVG logo) -->
+  <link rel="icon" type="image/svg+xml" href="assets/images/logo.svg">
+</head>
+<body class="dark-theme">
+
+  <!-- ==========================================================================
+       LOADING ANIMATION OVERLAY
+       ========================================================================== -->
+  <div id="loading-overlay" aria-hidden="true">
+    <div class="loader-container">
+      <div class="loader-spinner"></div>
+      <div class="loader-text">MEMUAT PORTFOLIO...</div>
+    </div>
+  </div>
+
+  <!-- ==========================================================================
+       HEADER & NAVIGATION
+       ========================================================================== -->
+  <header>
+    <nav class="navbar" aria-label="Navigasi Utama">
+      <a href="#home" class="nav-brand" id="brand-logo">
+        <img src="assets/images/logo.svg" alt="Imam Abdilla Aulia Logo" class="nav-logo-img">
+        <span>IMAM.</span>
+      </a>
+      
+      <ul class="nav-links" id="nav-menu">
+        <li class="nav-item active"><a href="#home">Home</a></li>
+        <li class="nav-item"><a href="#about">About</a></li>
+        <li class="nav-item"><a href="#portfolio">Projects</a></li>
+        <li class="nav-item"><a href="#contact">Contact</a></li>
+      </ul>
+      
+      <div class="nav-actions">
+        <!-- Theme Toggle Button -->
+        <button id="theme-toggle" class="theme-toggle-btn" aria-label="Ganti Tema Gelap/Terang">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="5"></circle>
+            <line x1="12" y1="1" x2="12" y2="3"></line>
+            <line x1="12" y1="21" x2="12" y2="23"></line>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+            <line x1="1" y1="12" x2="3" y2="12"></line>
+            <line x1="21" y1="12" x2="23" y2="12"></line>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+          </svg>
+        </button>
+        
+        <!-- Mobile Menu Toggle -->
+        <button class="hamburger" id="hamburger-menu" aria-expanded="false" aria-controls="nav-menu" aria-label="Buka Menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- ==========================================================================
+         HERO SECTION
+         ========================================================================== -->
+    <section id="home" class="hero-section">
+      <div class="hero-container">
+        
+        <div class="hero-content reveal-element active">
+          <div class="badge-tag">Tersedia untuk Magang & Freelance</div>
+          <h1 class="hero-title">Halo, Saya <br><span class="gradient-text">Imam Abdillah Aulia</span></h1>
+          <p class="hero-tagline">Web Developer & UI/UX Design Enthusiast</p>
+          <p class="hero-desc">
+            Mahasiswa Sistem Informasi di <strong>Universitas Sebelas April</strong> (UNSAP) Sumedang. Fokus membangun aplikasi web yang berkinerja tinggi, responsif, dan ramah pengguna dengan sentuhan estetika visual yang modern.
+          </p>
+          
+          <div class="hero-buttons">
+            <a href="#contact" class="btn btn-primary" id="btn-hire-me">Hubungi Saya</a>
+            <a href="assets/docs/CV_Imam_Abdilla_Aulia.pdf" class="btn btn-secondary" id="btn-download-cv" download>Unduh CV (PDF)</a>
+          </div>
+          
+          <div class="hero-socials">
+            <span>Ikuti Saya:</span>
+            <a href="https://github.com" class="social-link" aria-label="GitHub" target="_blank" rel="noopener noreferrer">
+              <img src="assets/icons/social/github.svg" alt="GitHub icon">
+            </a>
+            <a href="https://linkedin.com" class="social-link" aria-label="LinkedIn" target="_blank" rel="noopener noreferrer">
+              <img src="assets/icons/social/linkedin.svg" alt="LinkedIn icon">
+            </a>
+            <a href="https://instagram.com" class="social-link" aria-label="Instagram" target="_blank" rel="noopener noreferrer">
+              <img src="assets/icons/social/instagram.svg" alt="Instagram icon">
+            </a>
+            <a href="mailto:240160221016@student.unsap.ac.id" class="social-link" aria-label="Email">
+              <img src="assets/icons/social/email.svg" alt="Email icon">
+            </a>
+          </div>
+        </div>
+        
+        <div class="hero-media reveal-element active">
+          <div class="hero-img-frame">
+            <!-- Profile Image (Lazy loaded) -->
+            <img src="assets/images/profile/imam.jpeg" alt="Foto Profil Imam Abdilla Aulia" loading="lazy">
+          </div>
+          
+          <!-- Floating UI Cards -->
+          <div class="floating-card floating-card-1">
+            <div class="floating-card-icon">
+              <img src="assets/icons/skills/webdev.svg" alt="Webdev Icon" style="width:24px; height:24px;">
+            </div>
+            <div class="floating-card-text">
+              <h4>IPK Aktif</h4>
+              <p>3.90 / 4.00 (UNSAP)</p>
+            </div>
+          </div>
+          
+          <div class="floating-card floating-card-2">
+            <div class="floating-card-icon">
+              <img src="assets/icons/skills/react.svg" alt="React Icon" style="width:24px; height:24px;">
+            </div>
+            <div class="floating-card-text">
+              <h4>Keahlian Utama</h4>
+              <p>Frontend Web Dev</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         ABOUT ME SECTION
+         ========================================================================== -->
+    <section id="about" class="about-section">
+      <div class="container">
+        
+        <div class="section-header reveal-element">
+          <span class="section-subtitle">Tentang Saya</span>
+          <h2 class="section-title">Kenal Lebih Dekat Dengan <span class="underline">Imam</span></h2>
+        </div>
+        
+        <div class="about-grid">
+          
+          <div class="about-details reveal-element">
+            <h3>Latar Belakang & Aspirasi</h3>
+            <p>
+              Saya adalah mahasiswa jurusan Sistem Informasi di Universitas Sebelas April, Sumedang. Ketertarikan saya di dunia teknologi berpusat pada bagaimana cara menerjemahkan ide-ide kompleks menjadi solusi perangkat lunak yang elegan, interaktif, dan mudah diakses oleh semua orang.
+            </p>
+            <p>
+              Melalui perkuliahan dan proyek mandiri, saya aktif mengasah kemampuan dalam pengembangan web modern, integrasi database, dan desain antarmuka pengguna (UI/UX). Saya selalu bersemangat untuk mempelajari teknologi baru serta berkolaborasi dalam tim kreatif untuk menciptakan produk digital yang berdampak nyata.
+            </p>
+            
+            <h3>Pendidikan</h3>
+            <!-- Timeline -->
+            <div class="timeline-container">
+              
+              <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-meta">
+                  <span class="timeline-date">2023 - Sekarang</span>
+                  <span class="timeline-school">Universitas Sebelas April</span>
+                </div>
+                <h4 class="timeline-title">S1 - Sistem Informasi</h4>
+                <p class="timeline-desc">Mempelajari pemrograman web, analisis & perancangan sistem informasi, manajemen basis data, tata kelola TI, dan rekayasa proses bisnis.</p>
+              </div>
+              
+              <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-meta">
+                  <span class="timeline-date">2020 - 2023</span>
+                  <span class="timeline-school">MAN 1 SUMEDANG</span>
+                </div>
+                <h4 class="timeline-title">Sekolah Menengah Atas</h4>
+                <p class="timeline-desc">Memperoleh dasar pemikiran analitis, kemampuan berorganisasi, dan pemecahan masalah yang baik selama masa sekolah menengah.</p>
+              </div>
+
+              <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-meta">
+                  <span class="timeline-date">2017 - 2020</span>
+                  <span class="timeline-school">MTS TERPADU DARUL QURAN CIMALAKA SUMEDANG</span>
+                </div>
+                <h4 class="timeline-title">Pendidikan Menengah Pertama</h4>
+                <p class="timeline-desc">Mempelajari materi dasar sains, ilmu agama secara terpadu, serta pengenalan awal dasar teknologi informasi.</p>
+              </div>
+              
+            </div>
+          </div>
+          
+          <div class="about-skills reveal-element">
+            <h3>Keahlian & Kompetensi</h3>
+            <p>Berikut adalah beberapa teknologi dan keahlian yang secara aktif saya gunakan dalam membangun proyek:</p>
+            
+            <!-- Skill Progress Bars -->
+            <div class="skills-container">
+              
+              <div class="skill-item">
+                <div class="skill-header">
+                  <span>HTML, CSS & JavaScript</span>
+                  <span>90%</span>
+                </div>
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-bar" data-progress="90" style="width: 0%;"></div>
+                </div>
+              </div>
+              
+              <div class="skill-item">
+                <div class="skill-header">
+                  <span>React.js / Frontend Dev</span>
+                  <span>80%</span>
+                </div>
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-bar" data-progress="80" style="width: 0%;"></div>
+                </div>
+              </div>
+              
+              <div class="skill-item">
+                <div class="skill-header">
+                  <span>Node.js / Express (Backend)</span>
+                  <span>75%</span>
+                </div>
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-bar" data-progress="75" style="width: 0%;"></div>
+                </div>
+              </div>
+              
+              <div class="skill-item">
+                <div class="skill-header">
+                  <span>SQL & NoSQL Database</span>
+                  <span>75%</span>
+                </div>
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-bar" data-progress="75" style="width: 0%;"></div>
+                </div>
+              </div>
+              
+              <div class="skill-item">
+                <div class="skill-header">
+                  <span>UI/UX Design (Figma)</span>
+                  <span>85%</span>
+                </div>
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-bar" data-progress="85" style="width: 0%;"></div>
+                </div>
+              </div>
+              
+              <div class="skill-item">
+                <div class="skill-header">
+                  <span>Git & Collaboration</span>
+                  <span>85%</span>
+                </div>
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-bar" data-progress="85" style="width: 0%;"></div>
+                </div>
+              </div>
+              
+            </div>
+          </div>
+          
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         PORTFOLIO GALLERY SECTION
+         ========================================================================== -->
+    <section id="portfolio" class="portfolio-section">
+      <div class="container">
+        
+        <div class="section-header reveal-element">
+          <span class="section-subtitle">Galeri Karya</span>
+          <h2 class="section-title">Proyek <span class="underline">Unggulan</span></h2>
+        </div>
+        
+        <!-- Filter Tabs -->
+        <ul class="portfolio-filters reveal-element" aria-label="Filter Proyek">
+          <li><button class="filter-btn active" data-filter="all">Semua</button></li>
+          <li><button class="filter-btn" data-filter="web">Web App</button></li>
+          <li><button class="filter-btn" data-filter="mobile">Mobile</button></li>
+          <li><button class="filter-btn" data-filter="design">UI/UX</button></li>
+        </ul>
+        
+        <!-- Gallery Grid (Min 6 items) -->
+        <div class="portfolio-grid reveal-element">
+          
+          <!-- Project 1 (Web) -->
+          <article class="portfolio-card" data-category="web">
+            <div class="portfolio-img-wrapper">
+              <img src="assets/images/projects/project1.png" alt="Screenshot E-Commerce UMKM Sumedang" loading="lazy">
+              <div class="portfolio-overlay">
+                <button class="portfolio-action-btn open-lightbox" aria-label="Perbesar gambar">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/></svg>
+                </button>
+              </div>
+            </div>
+            <div class="portfolio-info">
+              <span class="portfolio-cat">Web App</span>
+              <h3 class="portfolio-card-title">E-Commerce UMKM Sumedang</h3>
+              <p class="portfolio-card-desc">Platform toko online lokal untuk mempromosikan produk kerajinan dan makanan khas daerah Sumedang guna meningkatkan penjualan digital pelaku UMKM.</p>
+              <ul class="portfolio-tech-list">
+                <li>JavaScript</li>
+                <li>Tailwind CSS</li>
+                <li>Node.js</li>
+              </ul>
+            </div>
+          </article>
+          
+          <!-- Project 2 (Mobile) -->
+          <article class="portfolio-card" data-category="mobile">
+            <div class="portfolio-img-wrapper">
+              <img src="assets/images/projects/project2.png" alt="Screenshot Portal Akademik UNSAP Mobile" loading="lazy">
+              <div class="portfolio-overlay">
+                <button class="portfolio-action-btn open-lightbox" aria-label="Perbesar gambar">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/></svg>
+                </button>
+              </div>
+            </div>
+            <div class="portfolio-info">
+              <span class="portfolio-cat">Mobile</span>
+              <h3 class="portfolio-card-title">Portal Akademik UNSAP</h3>
+              <p class="portfolio-card-desc">Mockup aplikasi mobile portal mahasiswa Universitas Sebelas April untuk mempermudah pengecekan jadwal kuliah, kartu hasil studi, dan pengisian KRS secara instan.</p>
+              <ul class="portfolio-tech-list">
+                <li>React Native</li>
+                <li>Redux</li>
+                <li>REST API</li>
+              </ul>
+            </div>
+          </article>
+          
+          <!-- Project 3 (UI/UX / Design) -->
+          <article class="portfolio-card" data-category="design">
+            <div class="portfolio-img-wrapper">
+              <img src="assets/images/projects/project3.png" alt="Screenshot Baloh Coffee POS Dashboard" loading="lazy">
+              <div class="portfolio-overlay">
+                <button class="portfolio-action-btn open-lightbox" aria-label="Perbesar gambar">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/></svg>
+                </button>
+              </div>
+            </div>
+            <div class="portfolio-info">
+              <span class="portfolio-cat">UI/UX Design</span>
+              <h3 class="portfolio-card-title">Baloh Coffee POS Dashboard</h3>
+              <p class="portfolio-card-desc">Desain antarmuka dashboard kasir (Point-of-Sale) kafe Baloh Coffee dengan fokus pada efisiensi checkout transaksi dan visualisasi laporan penjualan harian.</p>
+              <ul class="portfolio-tech-list">
+                <li>Figma</li>
+                <li>Wireframing</li>
+                <li>Design System</li>
+              </ul>
+            </div>
+          </article>
+          
+          <!-- Project 4 (Web) -->
+          <article class="portfolio-card" data-category="web">
+            <div class="portfolio-img-wrapper">
+              <img src="assets/images/projects/project4.png" alt="Screenshot IoT Smart City Sumedang" loading="lazy">
+              <div class="portfolio-overlay">
+                <button class="portfolio-action-btn open-lightbox" aria-label="Perbesar gambar">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/></svg>
+                </button>
+              </div>
+            </div>
+            <div class="portfolio-info">
+              <span class="portfolio-cat">Web App</span>
+              <h3 class="portfolio-card-title">Sumedang Command Center IoT</h3>
+              <p class="portfolio-card-desc">Dashboard pemantauan indikator perkotaan Sumedang berbasis internet of things, menampilkan grafik suhu, kelembapan, polusi udara, dan CCTV lalu lintas secara real-time.</p>
+              <ul class="portfolio-tech-list">
+                <li>React.js</li>
+                <li>Chart.js</li>
+                <li>WebSockets</li>
+              </ul>
+            </div>
+          </article>
+          
+          <!-- Project 5 (UI/UX / Design) -->
+          <article class="portfolio-card" data-category="design">
+            <div class="portfolio-img-wrapper">
+              <img src="assets/images/projects/project5.png" alt="Screenshot Task Management App UI" loading="lazy">
+              <div class="portfolio-overlay">
+                <button class="portfolio-action-btn open-lightbox" aria-label="Perbesar gambar">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/></svg>
+                </button>
+              </div>
+            </div>
+            <div class="portfolio-info">
+              <span class="portfolio-cat">UI/UX Design</span>
+              <h3 class="portfolio-card-title">Task & Productivity Tracker</h3>
+              <p class="portfolio-card-desc">Rancangan UI aplikasi pelacakan tugas berbasis Kanban Board yang dinamis, dengan fitur label kolaboratif, pengingat tenggat waktu, dan mode gelap bawaan.</p>
+              <ul class="portfolio-tech-list">
+                <li>Figma</li>
+                <li>Prototyping</li>
+                <li>Dark Mode</li>
+              </ul>
+            </div>
+          </article>
+          
+          <!-- Project 6 (Mobile) -->
+          <article class="portfolio-card" data-category="mobile">
+            <div class="portfolio-img-wrapper">
+              <img src="assets/images/projects/project6.png" alt="Screenshot FinTrack Personal Finance Mobile App" loading="lazy">
+              <div class="portfolio-overlay">
+                <button class="portfolio-action-btn open-lightbox" aria-label="Perbesar gambar">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/></svg>
+                </button>
+              </div>
+            </div>
+            <div class="portfolio-info">
+              <span class="portfolio-cat">Mobile</span>
+              <h3 class="portfolio-card-title">FinTrack: Aplikasi Kelola Keuangan</h3>
+              <p class="portfolio-card-desc">Mockup aplikasi mobile pencatatan pengeluaran harian, pengelolaan anggaran bulanan, serta visualisasi diagram lingkaran distribusi alokasi dana pengguna.</p>
+              <ul class="portfolio-tech-list">
+                <li>Flutter</li>
+                <li>SQLite</li>
+                <li>Responsive UI</li>
+              </ul>
+            </div>
+          </article>
+          
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         CONTACT SECTION & VALIDATION FORM
+         ========================================================================== -->
+    <section id="contact" class="contact-section">
+      <div class="container">
+        
+        <div class="section-header reveal-element">
+          <span class="section-subtitle">Hubungi Saya</span>
+          <h2 class="section-title">Mari Bekerja <span class="underline">Sama</span></h2>
+        </div>
+        
+        <div class="contact-grid">
+          
+          <!-- Contact Cards -->
+          <div class="contact-info-cards reveal-element">
+            
+            <div class="contact-info-card">
+              <div class="contact-info-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                  <polyline points="22,6 12,13 2,6"></polyline>
+                </svg>
+              </div>
+              <div class="contact-info-details">
+                <h4>Kirim Email</h4>
+                <p>240160221016@student.unsap.ac.id</p>
+              </div>
+            </div>
+            
+            <div class="contact-info-card">
+              <div class="contact-info-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                </svg>
+              </div>
+              <div class="contact-info-details">
+                <h4>Telepon / WhatsApp</h4>
+                <p>+62 838-6277-4682</p>
+              </div>
+            </div>
+            
+            <div class="contact-info-card">
+              <div class="contact-info-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                  <circle cx="12" cy="10" r="3"></circle>
+                </svg>
+              </div>
+              <div class="contact-info-details">
+                <h4>Lokasi</h4>
+                <p>Sumedang, Jawa Barat, Indonesia</p>
+              </div>
+            </div>
+            
+          </div>
+          
+          <!-- Contact Form -->
+          <div class="contact-form-wrapper reveal-element">
+            <form id="contact-form" novalidate>
+              
+              <div class="form-group">
+                <label for="form-name" class="form-label">Nama Lengkap</label>
+                <input type="text" id="form-name" class="form-input" placeholder="Masukkan nama lengkap Anda">
+                <span class="form-error-msg" id="name-error">Nama tidak boleh kosong</span>
+              </div>
+              
+              <div class="form-group">
+                <label for="form-email" class="form-label">Alamat Email</label>
+                <input type="email" id="form-email" class="form-input" placeholder="contoh: email@anda.com">
+                <span class="form-error-msg" id="email-error">Format email tidak valid</span>
+              </div>
+              
+              <div class="form-group">
+                <label for="form-message" class="form-label">Pesan Anda</label>
+                <textarea id="form-message" class="form-input textarea-input" placeholder="Tuliskan pesan atau detail proyek kerja sama Anda di sini..."></textarea>
+                <span class="form-error-msg" id="message-error">Pesan harus minimal 10 karakter</span>
+              </div>
+              
+              <button type="submit" class="btn btn-primary" style="width: 100%;">Kirim Pesan</button>
+              
+            </form>
+          </div>
+          
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- ==========================================================================
+       FOOTER
+       ========================================================================== -->
+  <footer>
+    <div class="footer-content">
+      <a href="#home" class="footer-logo">
+        <img src="assets/images/logo.svg" alt="Imam Abdilla Aulia Logo" class="footer-logo-img">
+        <span>IMAM.</span>
+      </a>
+      <p>Mengintegrasikan estetika desain modern dengan logika komputasi yang efisien.</p>
+      
+      <ul class="footer-links" aria-label="Tautan Kaki">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#portfolio">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+    
+    <div class="footer-bottom">
+      <p>&copy; 2026 Imam Abdilla Aulia. Hak Cipta Dilindungi.</p>
+      <p>Sistem Informasi - Universitas Sebelas April</p>
+    </div>
+  </footer>
+
+  <!-- ==========================================================================
+       LIGHTBOX PREVIEW MODAL
+       ========================================================================== -->
+  <div id="lightbox" class="lightbox" role="dialog" aria-modal="true" aria-label="Pratinjau Proyek">
+    <button class="lightbox-close-btn" aria-label="Tutup pratinjau">&times;</button>
+    <div class="lightbox-content">
+      <img class="lightbox-img" src="" alt="Pratinjau Gambar Proyek">
+      <div class="lightbox-caption">
+        <h3 class="lightbox-title">Judul Proyek</h3>
+        <p class="lightbox-desc">Deskripsi lengkap proyek akan dimuat di sini.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- JavaScript file -->
+  <script src="assets/js/script.js"></script>
+</body>
+</html>
