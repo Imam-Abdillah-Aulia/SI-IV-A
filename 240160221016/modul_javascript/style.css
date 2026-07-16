@@ -1,0 +1,143 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eaeaea;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Container */
+.container {
+    max-width: 800px;
+    margin: auto;
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Center text */
+.text-center {
+    text-align: center;
+}
+
+/* Title */
+h1 {
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+
+/* Subtitle */
+h2 {
+    color: #2980b9;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #2980b9;
+    padding-bottom: 5px;
+}
+
+/* Paragraph */
+p {
+    margin-bottom: 15px;
+}
+
+/* Image */
+img {
+    width: 150px;
+    border-radius: 50%;
+    margin: 20px 0;
+    border: 3px solid #2980b9;
+}
+
+/* Blockquote */
+blockquote {
+    font-style: italic;
+    margin: 15px auto;
+    padding: 10px;
+    background-color: #f4f4f4;
+    border-left: 5px solid #2980b9;
+    border-radius: 5px;
+    max-width: 600px;
+}
+
+/* Table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+th, td {
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+th {
+    background-color: #2980b9;
+    color: white;
+}
+
+/* List */
+ul, ol {
+    margin: 10px 0 20px 25px;
+}
+
+/* Audio */
+audio {
+    display: block;
+    margin: 20px auto;
+}
+
+/* Iframe (video & embed) */
+iframe {
+    display: block;
+    margin: 20px auto;
+    border: 2px solid #2980b9;
+    border-radius: 5px;
+    max-width: 100%;
+}
+
+/* Audio embed container */
+.audio-embed {
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+/* Link */
+a {
+    color: #2980b9;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin: 40px 0;
+    font-size: 0.9em;
+    color: #777;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    .container {
+        padding: 15px;
+    }
+
+    iframe {
+        width: 100%;
+        height: auto;
+    }
+
+    img {
+        width: 120px;
+    }
+}
